@@ -1,6 +1,8 @@
 # MODERN DEPENDENCY MANAGEMENT --------------------------------------------
 
 #library(shiny)
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+
 library(pandoc)
 
 # Install renv if needed
