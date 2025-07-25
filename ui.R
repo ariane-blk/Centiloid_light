@@ -53,16 +53,6 @@ ui <- page_fillable(
                 )
               )
               ), 
-    # nav_panel("🧠 Centiloid 101", 
-    #           accordion(
-    #             accordion_panel("Centiloid scale",
-    #                div(
-    #                  style = "display: flex; justify-content: center;",
-    #                  imageOutput("cl_scale", height = "100%", width = "100%")
-    #                  )
-    #                )
-    #             )
-    #           ),
     nav_panel("🧠 Centiloid 101", 
               card(                   
                 div(
@@ -107,37 +97,37 @@ ui <- page_fillable(
 
               )
               ),
-    nav_panel("🟣 GAAIN", 
-                  card( 
-                    full_screen = TRUE,           
-                    card_header("🧠 GAAIN masks"),
-                    card_title(  div(
-                      style = "text-align: center;",
-                      tags$a(
-                        href = "https://www.gaain.org/centiloid-project",
-                        target = "_blank",
-                        "https://www.gaain.org/centiloid-project"
-                      )
-                    )
-                    ),
-                    layout_columns(
-                      sliderInput("z_axial", "Axial (Z):", min = 1, max = 91, value = 50),
-                      sliderInput("y_coronal", "Coronal (Y):", min = 1, max = 109, value = 50),
-                      sliderInput("x_sagittal", "Sagittal (X):", min = 1, max = 91, value = 50),
-                      col_widths = c(4, 4, 4)
-                    ),
-                    card(
-                      style = "background-color: black; margin: 0; border: none;",
-                    layout_columns(
-                      plotOutput("axialPlot"),
-                      plotOutput("coronalPlot"),
-                      plotOutput("sagittalPlot"),
-                      col_widths = c(4, 4, 4)
-                    )
-                   )
-                    
-                  )
-    ),
+    # nav_panel("🟣 GAAIN", 
+    #               card( 
+    #                 full_screen = TRUE,           
+    #                 card_header("🧠 GAAIN masks"),
+    #                 card_title(  div(
+    #                   style = "text-align: center;",
+    #                   tags$a(
+    #                     href = "https://www.gaain.org/centiloid-project",
+    #                     target = "_blank",
+    #                     "https://www.gaain.org/centiloid-project"
+    #                   )
+    #                 )
+    #                 ),
+    #                 layout_columns(
+    #                   sliderInput("z_axial", "Axial (Z):", min = 1, max = 91, value = 50),
+    #                   sliderInput("y_coronal", "Coronal (Y):", min = 1, max = 109, value = 50),
+    #                   sliderInput("x_sagittal", "Sagittal (X):", min = 1, max = 91, value = 50),
+    #                   col_widths = c(4, 4, 4)
+    #                 ),
+    #                 card(
+    #                   style = "background-color: black; margin: 0; border: none;",
+    #                 layout_columns(
+    #                   plotOutput("axialPlot"),
+    #                   plotOutput("coronalPlot"),
+    #                   plotOutput("sagittalPlot"),
+    #                   col_widths = c(4, 4, 4)
+    #                 )
+    #                )
+    #                 
+    #               )
+    # ),
     nav_panel("❓ How to interpret it",  value = "interpretation",
               layout_columns(
                 card(

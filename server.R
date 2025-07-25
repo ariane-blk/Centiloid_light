@@ -156,94 +156,94 @@ server <- function(input, output) {
   
   #-------- 3D Viewer
   
-  base_nifti <- readNIfTI("data/MNI152_T1_2mm.nii", reorient = FALSE)
-  overlay1_nifti <- readNIfTI("data/voi_ctx_2mm.nii", reorient = FALSE)
-  overlay2_nifti <- readNIfTI("data/voi_WhlCbl_2mm.nii", reorient = FALSE)
-  
-  render_slice_plot <- function(base_slice, overlay1, overlay2, orientation = "axial") {
-    
-    dim_x <- dim(base_slice)[1]
-    dim_y <- dim(base_slice)[2]
-    mat_base <- base_slice
-    mat_ov1 <- overlay1
-    mat_ov2 <- overlay2
-
-    # Build data frame for ggplot
-    df <- expand.grid(x = 1:dim_x, y = 1:dim_y)
-    df$base <- as.vector(mat_base)
-    df$ov1 <- as.vector(mat_ov1)
-    df$ov2 <- as.vector(mat_ov2)
-    
-    ggplot(df, aes(x = x, y = y)) +
-      geom_raster(aes(fill = base)) +
-      scale_fill_gradient(low = "black", high = "white", guide = "none") +
-      
-      geom_raster(
-        data = subset(df, ov1 > 0),
-        aes(x = x, y = y),
-        fill = "purple",
-        alpha = 0.6,
-        inherit.aes = FALSE
-      ) +
-      
-      geom_raster(
-        data = subset(df, ov2 > 0),
-        aes(x = x, y = y),
-        fill = "orange",
-        alpha = 0.6,
-        inherit.aes = FALSE
-      ) +
-      
-      coord_fixed() +
-      theme_void()+
-      theme(
-        plot.background = element_rect(fill = "black", color =  NA),
-        panel.background = element_rect(fill = "black", color =  NA),
-        plot.margin = margin(0, 0, 0, 0),
-        axis.ticks = element_blank(),
-        axis.text = element_blank()
-      )
-  }
-  
-  
-  # Axial: no reorientation needed
-  output$axialPlot <- renderPlot({
-    par(bg = "black")
-    z <- input$z_axial
-    render_slice_plot(
-      base_nifti[, , z],
-      overlay1_nifti[, , z],
-      overlay2_nifti[, , z],
-      orientation = "axial"
-    )
-  }, bg = "black")
-  
-  # Coronal: needs transpose and flip
-  output$coronalPlot <- renderPlot({
-    par(bg = "black")
-    y <- input$y_coronal
-    render_slice_plot(
-      base_nifti[, y, ],
-      overlay1_nifti[, y, ],
-      overlay2_nifti[, y, ],
-      orientation = "coronal"
-    )
-  }, bg = "black")
-  
-  # Sagittal: same logic
-  output$sagittalPlot <- renderPlot({
-    par(bg = "black")
-    x <- input$x_sagittal
-    render_slice_plot(
-      base_nifti[x, , ],
-      overlay1_nifti[x, , ],
-      overlay2_nifti[x, , ],
-      orientation = "sagittal"
-    )
-  }, bg = "black")
-  
-  
-  
+  # base_nifti <- readNIfTI("data/MNI152_T1_2mm.nii", reorient = FALSE)
+  # overlay1_nifti <- readNIfTI("data/voi_ctx_2mm.nii", reorient = FALSE)
+  # overlay2_nifti <- readNIfTI("data/voi_WhlCbl_2mm.nii", reorient = FALSE)
+  # 
+  # render_slice_plot <- function(base_slice, overlay1, overlay2, orientation = "axial") {
+  #   
+  #   dim_x <- dim(base_slice)[1]
+  #   dim_y <- dim(base_slice)[2]
+  #   mat_base <- base_slice
+  #   mat_ov1 <- overlay1
+  #   mat_ov2 <- overlay2
+  # 
+  #   # Build data frame for ggplot
+  #   df <- expand.grid(x = 1:dim_x, y = 1:dim_y)
+  #   df$base <- as.vector(mat_base)
+  #   df$ov1 <- as.vector(mat_ov1)
+  #   df$ov2 <- as.vector(mat_ov2)
+  #   
+  #   ggplot(df, aes(x = x, y = y)) +
+  #     geom_raster(aes(fill = base)) +
+  #     scale_fill_gradient(low = "black", high = "white", guide = "none") +
+  #     
+  #     geom_raster(
+  #       data = subset(df, ov1 > 0),
+  #       aes(x = x, y = y),
+  #       fill = "purple",
+  #       alpha = 0.6,
+  #       inherit.aes = FALSE
+  #     ) +
+  #     
+  #     geom_raster(
+  #       data = subset(df, ov2 > 0),
+  #       aes(x = x, y = y),
+  #       fill = "orange",
+  #       alpha = 0.6,
+  #       inherit.aes = FALSE
+  #     ) +
+  #     
+  #     coord_fixed() +
+  #     theme_void()+
+  #     theme(
+  #       plot.background = element_rect(fill = "black", color =  NA),
+  #       panel.background = element_rect(fill = "black", color =  NA),
+  #       plot.margin = margin(0, 0, 0, 0),
+  #       axis.ticks = element_blank(),
+  #       axis.text = element_blank()
+  #     )
+  # }
+  # 
+  # 
+  # # Axial: no reorientation needed
+  # output$axialPlot <- renderPlot({
+  #   par(bg = "black")
+  #   z <- input$z_axial
+  #   render_slice_plot(
+  #     base_nifti[, , z],
+  #     overlay1_nifti[, , z],
+  #     overlay2_nifti[, , z],
+  #     orientation = "axial"
+  #   )
+  # }, bg = "black")
+  # 
+  # # Coronal: needs transpose and flip
+  # output$coronalPlot <- renderPlot({
+  #   par(bg = "black")
+  #   y <- input$y_coronal
+  #   render_slice_plot(
+  #     base_nifti[, y, ],
+  #     overlay1_nifti[, y, ],
+  #     overlay2_nifti[, y, ],
+  #     orientation = "coronal"
+  #   )
+  # }, bg = "black")
+  # 
+  # # Sagittal: same logic
+  # output$sagittalPlot <- renderPlot({
+  #   par(bg = "black")
+  #   x <- input$x_sagittal
+  #   render_slice_plot(
+  #     base_nifti[x, , ],
+  #     overlay1_nifti[x, , ],
+  #     overlay2_nifti[x, , ],
+  #     orientation = "sagittal"
+  #   )
+  # }, bg = "black")
+  # 
+  # 
+  # 
   #---------------------------
   # TAB: Centiloid 101
   #---------------------------
