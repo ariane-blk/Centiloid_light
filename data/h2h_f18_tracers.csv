@@ -1,0 +1,211 @@
+﻿sub_id,group,age,dx,tracer,pib_suvr_wcb,pib_cl,f18_suvr_wcb,f18_cl
+AD_100,elderly,73,AD,Flutemetamol,2.30,120.3,2.04,126.3
+AD_101,elderly,66,AD,Flutemetamol,2.45,133.9,2.03,125.2
+AD_102,elderly,70,AD,Flutemetamol,2.01,93.3,1.68,83.0
+AD_103,elderly,64,AD,Flutemetamol,1.83,75.7,1.64,78.2
+AD_104,elderly,62,AD,Flutemetamol,1.83,76.1,1.62,75.1
+AD_105,elderly,71,AD,Flutemetamol,2.22,112.6,1.86,104.2
+AD_106,elderly,62,AD,Flutemetamol,2.10,101.2,1.74,89.7
+AD_107,elderly,74,AD,Flutemetamol,1.81,74.2,1.50,60.6
+AD_108,elderly,72,AD,Flutemetamol,2.03,95.1,1.79,96.0
+AD_109,elderly,71,AD,Flutemetamol,2.05,96.4,1.82,99.3
+AD_110,elderly,74,AD,Flutemetamol,2.54,142.4,2.02,123.9
+AD_111,elderly,61,AD,Flutemetamol,2.16,106.6,2.00,121.1
+AD_112,elderly,60,AD,Flutemetamol,1.94,86.1,2.02,124.1
+AD_113,elderly,81,AD,Flutemetamol,2.08,99.7,2.18,143.5
+AD_114,elderly,61,AD,Flutemetamol,1.91,83.4,1.57,69.1
+AD_115,elderly,65,AD,Flutemetamol,1.82,75.1,1.59,71.6
+AD_116,elderly,61,AD,Flutemetamol,2.19,109.5,1.97,118.1
+AD_117,elderly,62,aMCI,Flutemetamol,2.19,109.4,1.90,110.1
+AD_118,elderly,69,aMCI,Flutemetamol,1.07,5.7,1.07,8.5
+AD_119,elderly,69,aMCI,Flutemetamol,0.96,-5.4,0.96,-4.8
+AD_120,elderly,71,aMCI,Flutemetamol,0.98,-2.9,0.98,-2.3
+AD_121,elderly,70,aMCI,Flutemetamol,2.19,109.8,1.86,105.0
+AD_122,elderly,69,aMCI,Flutemetamol,1.80,73.2,1.54,66.2
+AD_123,elderly,68,aMCI,Flutemetamol,1.86,78.6,1.62,76.1
+AD_124,elderly,70,AD,Flutemetamol,1.46,41.2,1.55,67.5
+AD_125,elderly,76,aMCI,Flutemetamol,2.00,92.4,1.76,92.5
+AD_126,elderly,80,aMCI,Flutemetamol,1.84,77.3,1.54,65.7
+AD_127,elderly,66,aMCI,Flutemetamol,0.93,-8.0,0.92,-9.4
+AD_128,elderly,82,AD,Flutemetamol,1.00,-0.9,1.02,2.6
+AD_129,elderly,79,aMCI,Flutemetamol,1.79,72.6,1.57,69.8
+AD_130,elderly,80,aMCI,Flutemetamol,1.99,90.7,1.59,71.7
+AD_131,elderly,75,AD,Flutemetamol,1.03,1.8,1.00,-0.3
+AD_132,elderly,57,aMCI,Flutemetamol,1.00,-1.2,1.00,0.5
+AD_133,elderly,81,aMCI,Flutemetamol,0.93,-7.5,0.93,-8.4
+AD_134,elderly,83,aMCI,Flutemetamol,1.68,62.0,1.58,71.0
+AD_135,elderly,70,aMCI,Flutemetamol,0.94,-7.1,0.90,-11.7
+AD_136,elderly,69,aMCI,Flutemetamol,1.02,0.9,0.99,-0.7
+AD_137,elderly,81,aMCI,Flutemetamol,0.96,-5.2,0.96,-4.8
+AD_138,elderly,78,aMCI,Flutemetamol,1.03,1.5,0.98,-1.7
+AD_139,elderly,77,aMCI,Flutemetamol,1.29,26.0,1.19,23.7
+AD_140,elderly,47,HC (O),Flutemetamol,1.00,-1.5,0.98,-2.6
+AD_141,elderly,61,HC (O),Flutemetamol,1.03,1.6,1.02,2.4
+AD_142,elderly,49,HC (O),Flutemetamol,1.05,3.7,1.05,6.1
+AD_143,elderly,47,HC (O),Flutemetamol,1.06,3.9,1.07,8.2
+AD_144,elderly,68,HC (O),Flutemetamol,0.94,-7.2,0.88,-14.1
+AD_145,elderly,48,HC (O),Flutemetamol,1.00,-1.3,0.98,-2.1
+AD_146,elderly,61,HC (O),Flutemetamol,0.99,-2.5,0.98,-2.6
+AD_147,elderly,70,HC (O),Flutemetamol,1.96,87.9,1.74,90.3
+AD_148,elderly,75,HC (O),Flutemetamol,1.04,2.1,1.02,2.6
+AD_149,elderly,48,HC (O),Flutemetamol,0.98,-2.7,0.97,-3.6
+YHV_001,young_controls,45,HC,Flutemetamol,1.10,8.3,1.07,8.4
+YHV_002,young_controls,35,HC,Flutemetamol,1.02,1.1,1.04,5.2
+YHV_003,young_controls,30,HC,Flutemetamol,0.98,-2.9,0.97,-3.3
+YHV_004,young_controls,39,HC,Flutemetamol,0.95,-5.9,0.92,-9.8
+YHV_005,young_controls,36,HC,Flutemetamol,1.04,2.2,1.06,7.6
+YHV_006,young_controls,37,HC,Flutemetamol,1.07,5.7,1.07,8.2
+YHV_007,young_controls,45,HC,Flutemetamol,0.95,-4.9,0.94,-7.1
+YHV_008,young_controls,31,HC,Flutemetamol,1.00,1.6,0.97,-3.8
+YHV_009,young_controls,32,HC,Flutemetamol,1.01,0.3,1.00,-0.3
+YHV_010,young_controls,32,HC,Flutemetamol,1.00,-1.1,0.99,-1.4
+YHV_011,young_controls,41,HC,Flutemetamol,0.94,-6.3,0.93,-8.0
+YHV_012,young_controls,34,HC,Flutemetamol,1.01,-0.7,1.00,0.0
+YHV_013,young_controls,39,HC,Flutemetamol,0.98,-3.4,0.96,-4.1
+YHV_014,young_controls,38,HC,Flutemetamol,0.98,-2.4,0.97,-3.1
+YHV_015,young_controls,33,HC,Flutemetamol,0.99,-1.7,0.96,-5.1
+YHV_016,young_controls,35,HC,Flutemetamol,1.04,3.6,1.06,7.6
+YHV_017,young_controls,41,HC,Flutemetamol,0.98,-2.7,0.98,-2.5
+YHV_018,young_controls,31,HC,Flutemetamol,0.97,-4.0,0.94,-6.5
+YHV_019,young_controls,45,HC,Flutemetamol,1.00,-1.4,0.98,-2.1
+YHV_020,young_controls,43,HC,Flutemetamol,0.99,-1.0,0.97,-3.5
+YHV_021,young_controls,34,HC,Flutemetamol,0.99,-1.4,0.95,-6.4
+YHV_022,young_controls,44,HC,Flutemetamol,0.97,-2.7,0.95,-5.9
+YHV_023,young_controls,34,HC,Flutemetamol,0.96,-3.6,0.93,-8.4
+YHV_024,young_controls,43,HC,Flutemetamol,1.26,22.5,1.17,20.9
+1008,elderly,64,AD,Florbetaben,1.76,69.2,1.29,42.9
+1009,elderly,77,AD,Florbetaben,2.33,123.0,1.78,118.6
+1010,elderly,78,HC,Florbetaben,1.04,1.8,0.97,-6.6
+1015,elderly,76,AD,Florbetaben,1.25,21.4,1.07,9.1
+1018,elderly,80,MCI,Florbetaben,0.91,-10.1,0.95,-9.7
+1019,elderly,68,FTD,Florbetaben,0.96,-5.6,1.03,3.1
+1022,elderly,65,MCI,Florbetaben,2.21,111.4,1.97,146.8
+1023,elderly,61,AD,Florbetaben,1.99,90.8,1.65,99.0
+1024,elderly,72,MCI,Florbetaben,0.94,-7.8,0.94,-10.2
+1026,elderly,71,MCI,Florbetaben,1.53,47.8,1.30,45.2
+1028,elderly,69,AD,Florbetaben,2.52,140.0,1.92,140.3
+1029,elderly,77,MCI,Florbetaben,2.25,115.3,1.69,104.2
+1030,elderly,73,MCI,Florbetaben,2.07,97.9,1.60,90.1
+1031,elderly,72,AD,Florbetaben,2.15,106.0,1.88,132.9
+1032,elderly,72,AD,Florbetaben,2.30,120.2,1.84,128.0
+1034,elderly,68,AD,Florbetaben,1.96,88.3,1.38,57.2
+1036,elderly,67,MCI,Florbetaben,2.42,130.6,1.84,127.4
+1037,elderly,73,MCI,Florbetaben,2.60,148.1,1.99,149.8
+1038,elderly,76,MCI,Florbetaben,2.13,103.5,1.61,92.4
+2002,elderly,65,HC,Florbetaben,1.10,8.0,1.08,10.5
+2005,elderly,63,HC,Florbetaben,1.51,46.1,1.38,57.2
+2017,elderly,66,HC,Florbetaben,1.02,0.3,1.01,-0.2
+2029,elderly,79,FTD,Florbetaben,1.20,16.5,1.15,22.1
+2030,elderly,84,HC,Florbetaben,1.10,7.5,1.09,11.7
+2032,elderly,76,HC,Florbetaben,1.68,61.9,1.39,58.3
+Y1001,young_controls,27,HC,Florbetaben,1.01,-0.4,1.00,-1.1
+Y1002,young_controls,27,HC,Florbetaben,0.98,-3.8,1.00,-2.0
+Y1003,young_controls,25,HC,Florbetaben,0.97,-5.0,0.89,-18.3
+Y1004,young_controls,42,HC,Florbetaben,1.00,-1.7,1.00,-0.8
+Y1005,young_controls,45,HC,Florbetaben,0.98,-3.2,1.01,-0.4
+Y1007,young_controls,26,HC,Florbetaben,0.95,-5.9,1.04,5.2
+Y1011,young_controls,27,HC,Florbetaben,1.07,4.4,1.04,4.2
+Y1012,young_controls,35,HC,Florbetaben,0.98,-4.0,1.04,3.9
+Y1017,young_controls,46,HC,Florbetaben,1.05,2.7,1.04,3.9
+Y1021,young_controls,26,HC,Florbetaben,1.04,1.6,1.02,2.1
+E001,elderly,69,HC,NAV4694,1.47,42.5,1.53,42.3
+E002,elderly,77,MCI,NAV4694,1.81,73.9,1.96,79.5
+E003,elderly,78,HC,NAV4694,1.44,39.7,1.47,37.4
+E004,elderly,59,AD,NAV4694,2.12,103.4,2.26,104.8
+E005,elderly,71,HC,NAV4694,1.03,1.3,1.01,-2.0
+E006,elderly,71,HC,NAV4694,1.04,2.3,1.04,1.1
+E007,elderly,64,HC,NAV4694,1.02,1.0,1.01,-2.1
+E008,elderly,89,MCI,NAV4694,2.08,99.5,2.13,94.0
+E009,elderly,64,HC,NAV4694,1.05,3.1,1.06,2.5
+E010,elderly,60,MCI,NAV4694,1.12,9.5,1.15,10.1
+E011,elderly,66,FTD,NAV4694,1.11,8.9,1.10,6.1
+E012,elderly,81,AD,NAV4694,1.55,49.5,1.63,51.5
+E013,elderly,87,MCI,NAV4694,1.76,69.3,1.90,74.5
+E015,elderly,65,MCI,NAV4694,2.34,123.5,2.42,118.2
+E016,elderly,75,MCI,NAV4694,1.75,69.1,1.82,67.5
+E017,elderly,65,HC,NAV4694,0.93,-8.0,0.94,-7.6
+E018,elderly,80,HC,NAV4694,1.03,1.6,1.02,-0.7
+E019,elderly,63,FTD,NAV4694,0.78,-21.8,0.78,-21.1
+E021,elderly,80,AD,NAV4694,2.49,137.4,2.63,136.1
+E022,elderly,69,MCI,NAV4694,1.04,2.5,1.09,5.4
+E023,elderly,69,AD,NAV4694,1.76,70.0,1.92,75.7
+E024,elderly,89,HC,NAV4694,1.24,21.0,1.23,16.8
+E025,elderly,63,HC,NAV4694,0.94,-7.2,0.94,-8.1
+E026,elderly,80,HC,NAV4694,0.95,-6.1,0.97,-5.0
+E027,elderly,66,HC,NAV4694,1.07,5.7,1.11,6.4
+E028,elderly,82,HC,NAV4694,1.07,4.9,1.08,4.1
+E029,elderly,81,HC,NAV4694,0.94,-7.0,0.94,-7.3
+E030,elderly,72,HC,NAV4694,1.06,4.1,1.10,5.9
+E031,elderly,78,HC,NAV4694,1.01,-0.4,0.98,-4.3
+E032,elderly,57,HC,NAV4694,1.04,2.5,1.03,-0.4
+E033,elderly,65,AD,NAV4694,1.33,29.3,1.42,33.0
+E034,elderly,57,AD,NAV4694,1.89,81.5,1.97,80.5
+E035,elderly,67,MCI,NAV4694,1.13,10.5,1.17,11.7
+E036,elderly,77,HC,NAV4694,1.37,33.5,1.40,31.1
+E037,elderly,67,HC,NAV4694,0.99,-2.4,0.99,-3.8
+E038,elderly,68,HC,NAV4694,1.00,-1.3,1.03,-0.3
+E039,elderly,68,HC,NAV4694,1.05,3.8,1.14,9.1
+E040,elderly,68,HC,NAV4694,0.96,-4.9,0.98,-4.4
+E041,elderly,89,HC,NAV4694,0.89,-11.7,0.90,-11.4
+E042,elderly,74,MCI,NAV4694,1.06,4.3,1.05,1.6
+E043,elderly,83,AD,NAV4694,2.34,123.6,2.37,113.9
+E044,elderly,72,FTD,NAV4694,1.07,4.9,1.09,5.2
+E045,elderly,61,HC,NAV4694,0.99,-2.4,1.02,-1.0
+E046,elderly,70,HC,NAV4694,0.97,-4.0,1.02,-1.3
+E047,elderly,73,MCI,NAV4694,2.03,94.5,2.33,111.2
+Y001,young_controls,45,HC,NAV4694,0.99,-2.1,1.01,-2.4
+Y002,young_controls,45,HC,NAV4694,1.02,0.9,1.05,1.5
+Y003,young_controls,30,HC,NAV4694,0.95,-5.8,0.96,-6.2
+Y004,young_controls,30,HC,NAV4694,1.03,1.6,0.99,-3.7
+Y005,young_controls,28,HC,NAV4694,1.00,-1.5,1.07,3.0
+Y006,young_controls,26,HC,NAV4694,0.95,-5.7,1.00,-3.0
+Y007,young_controls,29,HC,NAV4694,0.93,-8.2,0.94,-7.6
+Y008,young_controls,30,HC,NAV4694,0.94,-6.8,0.97,-5.4
+Y009,young_controls,29,HC,NAV4694,0.91,-9.3,0.93,-8.4
+Y010,young_controls,32,HC,NAV4694,1.05,3.0,1.06,2.6
+395690,young_controls,21,YHC,Florbetapir,1.01,0.5,0.99,-8.9
+315554,young_controls,23,YHC,Florbetapir,1.00,-0.1,1.01,-5.3
+411884,young_controls,23,YHC,Florbetapir,0.96,-4.5,1.02,-3.1
+406808,young_controls,24,NC,Florbetapir,1.03,2.3,1.04,-0.2
+453954,young_controls,25,YHC,Florbetapir,1.02,1.8,1.20,28.7
+296898,young_controls,26,YHC,Florbetapir,1.03,2.2,1.02,-2.8
+198665,young_controls,26,NC,Florbetapir,0.95,-5.4,0.98,-11.1
+404333,young_controls,27,YHC,Florbetapir,1.03,2.6,1.07,5.5
+363785,young_controls,28,YHC,Florbetapir,1.02,1.5,1.03,-2.6
+462623,young_controls,28,NC,Florbetapir,0.96,-4.4,1.02,-2.8
+101437,young_controls,30,YHC,Florbetapir,1.00,-0.5,1.05,0.8
+487972,young_controls,35,YHC,Florbetapir,1.05,4.5,1.10,11.2
+119551,young_controls,35,YHC,Florbetapir,1.00,-0.3,1.12,13.7
+313017,elderly,51,AD,Florbetapir,1.82,76.6,1.65,106.9
+271648,elderly,51,NC,Florbetapir,1.00,-0.8,1.10,10.0
+164067,elderly,54,AD,Florbetapir,1.89,83.1,1.38,59.9
+196851,elderly,58,NC,Florbetapir,1.07,5.9,1.09,8.9
+105858,elderly,59,Clinical AD,Florbetapir,2.26,117.7,1.78,130.4
+181120,elderly,61,Possible AD ,Florbetapir,0.89,-10.7,0.95,-15.3
+303610,elderly,63,NC,Florbetapir,1.02,1.2,1.14,17.8
+318614,elderly,64,MCI,Florbetapir,2.29,120.8,1.89,149.6
+146743,elderly,65,Clinical AD,Florbetapir,2.11,103.7,1.67,110.2
+123723,elderly,66,Clinical AD,Florbetapir,0.94,-5.8,0.99,-9.3
+106843,elderly,66,NC,Florbetapir,1.08,7.4,1.12,13.1
+388397,elderly,66,NC,Florbetapir,0.99,-1.1,1.01,-5.2
+168001,elderly,68,AD,Florbetapir,1.94,88.1,1.65,106.7
+466541,elderly,69,Clinical AD,Florbetapir,1.86,80.1,1.43,68.8
+231642,elderly,69,Possible AD ,Florbetapir,1.94,87.7,1.31,47.3
+395069,elderly,69,Clinical AD,Florbetapir,1.87,81.5,1.50,80.0
+291467,elderly,70,Clinical AD,Florbetapir,1.82,76.5,1.36,55.9
+457754,elderly,71,Clinical AD,Florbetapir,1.57,53.4,1.30,45.1
+242877,elderly,71,Possible AD ,Florbetapir,1.92,86.5,1.62,101.0
+378784,elderly,73,Clinical AD,Florbetapir,2.11,104.3,1.38,59.7
+444992,elderly,74,Clinical AD,Florbetapir,2.43,133.8,1.96,160.7
+130779,elderly,74,AD,Florbetapir,0.94,-5.8,0.99,-9.4
+335214,elderly,75,NC,Florbetapir,0.96,-4.3,0.91,-22.2
+225403,elderly,76,Clinical AD,Florbetapir,2.35,126.2,1.65,106.8
+422325,elderly,77,MCI,Florbetapir,2.39,130.0,1.70,115.1
+214174,elderly,78,At risk elderly subject,Florbetapir,1.06,5.1,1.07,4.6
+346724,elderly,78,At risk elderly subject,Florbetapir,1.05,4.6,0.99,-8.9
+461664,elderly,78,MCI,Florbetapir,1.02,1.2,0.93,-19.4
+250722,elderly,79,MCI,Florbetapir,2.43,134.5,1.95,158.9
+123950,elderly,83,At risk elderly subject,Florbetapir,1.74,69.6,1.39,62.0
+293755,elderly,84,MCI,Florbetapir,1.13,11.6,1.32,49.3
+370972,elderly,88,MCI,Florbetapir,1.93,87.1,1.49,78.5
+476741,elderly,89,MCI,Florbetapir,1.38,35.0,1.26,38.3

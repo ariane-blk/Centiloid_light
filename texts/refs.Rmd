@@ -1,0 +1,27 @@
+---
+title: "refs"
+author: "Ariane"
+date: "2025-07-20"
+output: html_document
+---
+# 📚 Key references
+
+## Original paper
+
+* [Klunk, William E., et al. "The Centiloid Project: standardizing quantitative amyloid plaque estimation by PET." Alzheimer's & dementia 11.1 (2015): 1-15.](https://doi.org/10.1016/j.jalz.2014.07.003)
+
+## Reviews
+
+* [Iaccarino, Leonardo, et al. "A practical overview of the use of amyloid-PET Centiloid values in clinical trials and research." NeuroImage: Clinical (2025): 103765.](https://doi.org/10.1016/j.nicl.2025.103765)
+* [Collij, Lyduine E., Bollack, Ariane, et al. "Centiloid recommendations for clinical context‐of‐use from the AMYPAD consortium." Alzheimer's & Dementia 20.12 (2024): 9037-9048.](https://doi.org/10.1002/alz.14336)
+
+## Validation F-18 tracers
+* Florbetapir: [Navitsky, Michael, et al. "Standardization of amyloid quantitation with florbetapir standardized uptake value ratios to the Centiloid scale." Alzheimer's & Dementia 14.12 (2018): 1565-1571.](https://doi.org/10.1016/j.jalz.2018.06.1353)
+* Florbetaben: [Rowe, Christopher C., et al. "18F-Florbetaben PET beta-amyloid binding expressed in Centiloids." European journal of nuclear medicine and molecular imaging 44.12 (2017): 2053-2059.](https://doi.org/10.1007/s00259-017-3749-6)
+* Flutemetamol: [Battle, Mark R., et al. "Centiloid scaling for quantification of brain amyloid with \[18F\] flutemetamol using multiple processing methods." EJNMMI research 8.1 (2018): 107.](https://doi.org/10.1186/s13550-018-0456-7)
+* NAV4694: [Rowe, Christopher C., et al. "Standardized expression of 18F-NAV4694 and 11C-PiB β-amyloid PET results with the Centiloid scale." Journal of Nuclear Medicine 57.8 (2016): 1233-1237.](https://doi.org/10.2967/jnumed.115.171595)
+
+## Use in anti-Aβ therapies clinical trials
+* Donanemab: [Sims, John R., et al. "Donanemab in early symptomatic Alzheimer disease: the TRAILBLAZER-ALZ 2 randomized clinical trial." Jama 330.6 (2023): 512-527.](https://doi.org/10.1001/jama.2023.13239)
+* Lecanemab: [Van Dyck, Christopher H., et al. "Lecanemab in early Alzheimer’s disease." New England Journal of Medicine 388.1 (2023): 9-21.](https://doi.org/10.1056/NEJMoa2212948)
+* (Aducanumab): [Burton, Jackson, et al. "Lower baseline amyloid beta burden is associated with greater percent of amyloid beta positron emission tomography reduction and better clinical outcomes in the aducanumab Phase 3 trials ENGAGE and EMERGE in early Alzheimer's disease." The Journal of Prevention of Alzheimer's Disease (2025): 100202.](https://doi.org/10.1016/j.tjpad.2025.100202)
